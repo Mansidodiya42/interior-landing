@@ -1,0 +1,570 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.17rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.83rem;
+}
+
+h6 {
+  font-size: 0.75rem;
+}
+
+p {
+  font-size: 1rem;
+  color: var(--paragraph-color);
+}
+
+a {
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: #679664;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --paragraph-color: #737373;
+}
+
+button {
+  border-radius: 20px 0 !important;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border-style: none;
+  padding: 10px 30px;
+}
+
+.Wemake button:hover,
+.satisfieddata button:hover {
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  box-shadow: 0px 15px 20px var(--primary-color);
+}
+
+.headerSection {
+  align-items: center;
+}
+
+.headerlogo {
+  display: flex;
+  align-items: center;
+}
+
+.headerlogo img {
+  margin-right: 30px;
+}
+
+.headerlogo p {
+  color: #9d9d9d;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.headerlogo a {
+  color: #9d9d9d;
+  text-decoration: none;
+}
+
+.Wemake ul {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  padding-left: 0;
+  color: var(--primary-color);
+}
+
+.Wemake ul li:first-child {
+  list-style: none;
+}
+
+.Wemake .row {
+  align-items: center;
+}
+
+.Wemake {
+  background-image: url(./assets/Images.png);
+  width: 100%;
+  height: 480px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 95% center;
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+}
+
+.Wemake p {
+  width: 80%;
+}
+
+.whatwedata,
+.portfoliodata,
+.testimonialsdata,
+.happyclientsdata {
+  text-align: center;
+}
+
+.whatwedata h4,
+.portfoliodata h4,
+.testimonialsdata h4,
+.happyclientsdata h4,
+.satisfieddata h4 {
+  color: var(--primary-color);
+}
+
+.whatwecontent,
+.portfoliocontent,
+.happyclientscontent {
+  padding: 50px 0;
+}
+
+.whatwecontent p {
+  width: 80%;
+}
+
+.portfolio img {
+  width: 100%;
+  border-radius: 100px 0;
+}
+
+.portfoliohover {
+  display: none;
+}
+
+.portfolio-icon {
+  position: relative;
+}
+
+.portfolio-icon:hover {
+  margin-top: -20px;
+}
+
+.portfolio-icon:hover .portfoliohover {
+  display: block;
+  position: absolute;
+  width: initial;
+  top: 25%;
+  left: 25%;
+  cursor: pointer;
+}
+
+.happyclientscontent {
+  justify-content: space-between;
+}
+
+.satisfiedsection {
+  background-color: var(--primary-color);
+  background-image: url(./assets/Pattern.png);
+  padding: 100px;
+}
+
+.satisfieddata {
+  background-color: var(--white-color);
+  padding: 65px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 150px 0;
+}
+
+.satisfieddata button {
+  margin-top: 20px;
+}
+
+.footersec {
+  padding: 50px 0;
+}
+
+.footersec a {
+  text-decoration: none;
+  display: block;
+  color: var(--paragraph-color);
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright p {
+  text-align: center;
+  color: var(--black-color);
+}
+
+.testimonials .slick-prev:before,
+.testimonials .slick-next:before {
+  color: var(--black-color);
+}
+
+.testimonials .slick-prev,
+.testimonials .slick-next {
+  top: -50px;
+}
+
+.testimonials .slick-prev {
+  right: 0;
+  left: initial;
+}
+
+.testimonials .slick-list {
+  margin: 50px 0;
+}
+
+.testimonials .textback {
+  background-color: #ffffff;
+  border-radius: 100px 0;
+  box-shadow: rgb(0 0 0 / 16%) 0px 0px 1px 0px,
+    inset rgb(0 0 0 / 6%) 0px 0px 0px 1px;
+  padding: 30px 30px 30px 50px;
+  width: 90%;
+  position: relative;
+}
+
+.testimonials .testsilde {
+  display: flex !important;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.testimonials .testsilde .testimg {
+  position: absolute;
+  left: 0;
+  top: 20%;
+  z-index: 1;
+}
+
+.testimonials .textback h4,
+.testimonials .textback p {
+  width: 90%;
+  margin-left: auto;
+}
+
+.testimonials .slick-slide div {
+  margin: 0 10px;
+}
+
+.testimonials .textback h4 span {
+  color: var(--paragraph-color);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.testimonials .textback .quoteimg {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.testimonials .textback h4 {
+  margin-top: 20px;
+}
+
+.testimonials .testarrow {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.testimonials .testarrow svg {
+  margin: 0 10px;
+  color: #e0e2de;
+}
+
+.testimonials .testarrow svg:hover {
+  color: #0b0b0b;
+}
+
+.satisfieddata h2 {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.portfolio-icon h3 {
+  margin-top: 10px;
+}
+
+.footersec img {
+  margin-top: 25px;
+}
+
+.socialmedia a:hover {
+  color: var(--primary-color);
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .Wemake {
+    height: initial;
+  }
+
+  .Wemake ul {
+    width: 50%;
+  }
+
+  .shapeimg img {
+    width: 100%;
+  }
+
+  .testimonials .testsilde .testimg {
+    left: -4%;
+  }
+
+  .testimonials .textback h4 {
+    font-size: 20px;
+  }
+
+  .testimonials .textback h4 span {
+    font-size: 15px;
+  }
+
+  .happyclientscontent img {
+    width: 100%;
+  }
+
+  .satisfieddata h2 {
+    font-size: 2.5rem;
+  }
+
+  .portfolio-icon:hover .portfoliohover {
+    top: 20%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .shapeimg img {
+    width: 100%;
+  }
+
+  .Wemake {
+    height: 300px;
+  }
+
+  .headerlogo img {
+    margin-right: 10px;
+  }
+
+  .Wemake ul {
+    width: 60%;
+  }
+
+  .whatwecontent p {
+    width: initial;
+  }
+
+  .testimonials .testsilde .testimg {
+    left: 35%;
+    top: 2%;
+  }
+
+  .testimonials .textback {
+    box-shadow: rgb(0 0 0 / 16%) 0px 0px 1px 0px,
+      inset rgb(0 0 0 / 6%) 0px 0px 18px 1px;
+    padding: 20px;
+  }
+
+  .testimonials .slick-slide div {
+    margin: 0;
+  }
+
+  .testimonials .textback h4 {
+    margin-top: 110px;
+  }
+
+  .testimonials .textback h4,
+  .testimonials .textback p {
+    width: initial;
+  }
+
+  .satisfieddata {
+    width: initial;
+  }
+
+  .footer h4 {
+    font-size: 18px;
+  }
+
+  .happyclientscontent img {
+    width: 100%;
+  }
+
+  .satisfieddata h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .shapeimg img {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .creative-icon {
+    text-align: center;
+  }
+
+  .whatwecontent p {
+    width: initial;
+  }
+
+  .portfolio-icon:hover .portfoliohover {
+    top: 30%;
+    left: 30%;
+  }
+
+  .satisfieddata {
+    width: initial;
+    padding: 50px;
+  }
+
+  .satisfiedsection {
+    padding: 40px;
+  }
+
+  .satisfieddata h2 {
+    font-size: 2.5rem;
+  }
+
+  .footersec {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .footersec img {
+    margin-bottom: 25px;
+  }
+
+  .happyclientscontent img {
+    margin-bottom: 20px;
+  }
+
+  .clientlogo {
+    text-align: center;
+  }
+
+  .Wemake {
+    background-image: none;
+    height: initial;
+  }
+
+  .Wemakeimg {
+    background-image: url(./assets/Images.png);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .wemakeimgsec {
+    margin-top: 50px !important;
+  }
+
+  .testimonials .textback {
+    box-shadow: rgb(0 0 0 / 16%) 0px 0px 1px 0px,
+      inset rgb(0 0 0 / 6%) 0px 0px 40px 1px;
+  }
+
+  .Wemake {
+    width: 80%;
+    margin: 50px auto;
+  }
+
+  .Wemake ul {
+    width: 60%;
+  }
+}
+
+@media (max-width: 575px) {
+  .Wemake {
+    width: 90%;
+  }
+
+  .Wemake ul {
+    width: 80%;
+  }
+
+  .headerlogo p {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headerlogo img {
+    margin-right: 20px;
+  }
+
+  .Wemake p {
+    width: initial;
+  }
+
+  .portfolio-icon {
+    margin-bottom: 40px;
+  }
+
+  .portfolio-icon:hover .portfoliohover {
+    top: 20%;
+    left: 20%;
+  }
+
+  .satisfiedsection {
+    padding: 20px;
+  }
+
+  .satisfieddata {
+    border-radius: 50px 0;
+    padding: 20px;
+  }
+
+  .satisfieddata h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .testimonials .testsilde .testimg {
+    left: 30%;
+    top: 2%;
+  }
+
+  .testimonials .textback h4 {
+    margin-top: 110px;
+  }
+
+  .testimonials .textback h4,
+  .testimonials .textback p {
+    width: initial;
+  }
+
+  .testimonials .textback {
+    padding: 25px;
+    width: 100%;
+  }
+
+  .testimonials .textback .quoteimg {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .Wemakeimg {
+    height: 200px;
+  }
+}
